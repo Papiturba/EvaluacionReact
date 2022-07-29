@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+.tareaCard{
+    background-color:hsla(50,70,90,100);
+    border-radius: 0px;
+
+    .tituloContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 7px;
+      padding-right: 10px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+
+      .tituloCard {
+        color: black;
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      svg {
+        cursor: pointer;
+      }
+    }
+
+    .descripcionCard {
+      color: black;
+      padding-right: 30px;
+      padding-left: 30px;
+      font-weight: 700;
+      opacity: .8;
+      padding-bottom: 35px;
+    }
+  }
